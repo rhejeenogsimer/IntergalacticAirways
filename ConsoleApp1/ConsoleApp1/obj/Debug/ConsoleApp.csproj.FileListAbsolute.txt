@@ -1,0 +1,10 @@
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Projects\Coding Challenge\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
