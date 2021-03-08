@@ -17,13 +17,18 @@ namespace ConsoleApp
             Console.WriteLine("--Intergalactic Airways--" + "\r\n");
             Console.WriteLine("Input number of passengers:" + "\r\n");
 
-            int passengers = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(@"Starships - Pilots:" + "\r\n");
-            Console.WriteLine(getSuitablestarShips(passengers));
+            int passengers;
+            if (!int.TryParse(Console.ReadLine(), out passengers))
+            {
+                Console.WriteLine("Invalid Input" + "\r\n");
+                return;
+            }
+            Console.WriteLine("Starships - Pilots:" + "\r\n");
+            Console.WriteLine(getSuitableStarShips(passengers));
             Console.WriteLine("--Intergalactic Airways--");
         }
 
-        public static string getSuitablestarShips(int passengers)
+        public static string getSuitableStarShips(int passengers)
         {
             var outputString = "";
             using (WebClient wc = new WebClient())
@@ -62,10 +67,10 @@ namespace ConsoleApp
             }
         }
 
-        public static string GetApi(string ApiUrl)
+        public static string GetApi(string url)
         {
             var responseString = "";
-            var request = (HttpWebRequest)WebRequest.Create(ApiUrl);
+            var request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "GET";
             request.ContentType = "application/json";
 
